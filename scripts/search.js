@@ -14,7 +14,7 @@ if ("maxTouchPoints" in navigator) {
 	} else if ("orientation" in window) {
 		hasTouchScreen = true; // deprecated, but good fallback
 	} else {
-		// Only as a last resort, fall back to user agent sniffing
+		// Only as a last resort, fall back to user agent sniffing cause its a 97% chance of working
 		let UA = navigator.userAgent;
 		hasTouchScreen =
 			/\b(BlackBerry|webOS|iPhone|IEMobile)\b/i.test(UA) ||
@@ -87,7 +87,7 @@ if (document.readyState === "loading") {
 // Set searchString to the urls search parameter but slice the "?"
 // Also, replace all the "+" (default space placeholder) with URI encoded space.
 // Then it will decode the URI
-// For example, if the url is mathgames66.github.io/search?search=hi&tags=2dANDscratch, it grabs "search=hi&tags=2dANDscratch")
+// For example, if the url is ./search?search=hi&tags=2dANDscratch, it grabs "search=hi&tags=2dANDscratch")
 let searchString = decodeURIComponent(
 	document.location.search.slice(1).replaceAll("+", "%20")
 );
@@ -145,7 +145,7 @@ async function getGameData() {
 			document.getElementById(
 				"container"
 			).outerHTML = `<div style="margin: 60px 20%; padding:60px; border-radius:20px; background:#232323; color:#F00">
-		<h1>failed to fetch game data. if problem persists, send the following to <a href="mailto:mathgames66@mail.com">mathgames66@mail.com</a> or include in github issue</h1>
+		<h1>failed to fetch game data. if problem persists, send the following to <a href="mailto:schoollinks@cassidycamp.work">schoollinks@cassidycamp.work</a> or include in github issue</h1>
 		<p style="text-align:left; color:#F00; background:#111; font-family:monospace;">${error}<br />${
 				error.lineNumber
 					? "lineNum: " + error.lineNumber
@@ -268,11 +268,8 @@ async function searchFunction() {
 		document.getElementById(
 			"container"
 		).outerHTML = `<div style="margin: 60px 20%; padding:60px; border-radius:20px; background:#232323;">
-    <h1 style="font-family: Comic Sans MS, cursive; color:orange">secert O0O pog</h1>
-    <video loop mute autoplay >
-	<source src="https://mg66-secrets.pages.dev/funny.mp4" type="video/mp4">
-      <p>ur browser suck. no secret for you :(</p> 
-    </video>
+      <h1 style="font-family: Comic Sans MS, cursive; color:orange">secert O0O pog</h1>
+      <p>no secret for you :P</p> 
       </div>`;
 	} else if (gameDataObj.length == 0) {
 		document.getElementById(
