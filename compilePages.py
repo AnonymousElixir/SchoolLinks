@@ -104,7 +104,7 @@ html_parser = MyHTMLParser()
 html_file = open("p/template.html", "r", encoding='utf8')
 html_string = html_file.read()
 # with open("gameData [BACKUP 2].json", "r", encoding='utf8') as backup:
-with open("gamedata.json", "r", encoding='utf8') as json_file:
+with open("gameData.json", "r", encoding='utf8') as json_file:
 
     json_array = json.load(json_file)
     for object_index in range(len(json_array)):
