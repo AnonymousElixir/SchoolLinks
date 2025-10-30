@@ -20,7 +20,7 @@ def ftype(end):
             raise TypeError("Looking for ", end, "file, found other")
     return check
 args_parser = argparse.ArgumentParser(
-    description='compiles the html pages for mathgames66 from a json file')
+    description='compiles the html pages for SchoolLinks from a json file')
 args_parser.add_argument('jsonfile', type=argparse.FileType('r', encoding="utf8"),
                          help='the source json file for the parsing. the default value is \"gameData.json\"', default=open("gameData.json", "r", encoding='utf8'), nargs='?')
 args_parser.add_argument('-nb', '--no-backup', action='store_true',
