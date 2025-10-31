@@ -18,3 +18,7 @@ Fix Sitemap
 Get A Custom Domain
 
 Make A better readme.md
+
+make it so all hyperlinks are highlighted by default and just use a diff class for no highlight.
+
+Make Daily secret use an api instead of manual commits
