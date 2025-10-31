@@ -1135,40 +1135,6 @@
       "thumbnailURL": "color-switch-challenges.jpg"
     },
     {
-      "name": "cookieclicker",
-      "dispName": "Cookie Clicker",
-      "description": "Cookie Clicker is a game about making an absurd amount of cookies. To help you in this endeavor, you will recruit a wide variety of helpful cookie makers, like friendly Grandmas, Farms, Factories, and otherworldly Portals.",
-      "siteTags": [
-        "HTML5",
-        "2d",
-        "1 player",
-        "idle"
-      ],
-      "metaTags": [
-        "math games 66",
-        "mathgames66",
-        "unblocked",
-        "online",
-        "free",
-        "games",
-        "game",
-        "interactive",
-        "HTML5"
-      ],
-      "series": null,
-      "isMobile": true,
-      "creator": "Orteil",
-      "uploader": "Reckzom",
-      "pageData": {
-        "isFrame": "iframe",
-        "attributes": {
-          "src": "../games/html5/cookieclicker"
-        }
-      },
-      "url": "cookieclicker",
-      "thumbnailURL": "unnamed.png"
-    },
-    {
       "name": "craftmine",
       "dispName": "CraftMine",
       "description": "",
