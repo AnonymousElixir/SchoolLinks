@@ -1,0 +1,7 @@
+fuse.js - Fuzzy Finder script used when searching to find games similar to the query
+modal.js - A modal script
+q5.min.js - Minified version of https://q5js.org/
+script.js - mostly filter stuffs + other general things
+search.js - Seachbar functionality script
+series_check.js - checks game series to find matching games from the series
+similar.js - checks similar strings based on https://www.jsdelivr.com/package/npm/string-similarity-js
