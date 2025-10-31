@@ -1,4 +1,4 @@
-fuse.js - Fuzzy Finder script used when searching to find games similar to the query
+fuse.js - Fuzzy Finder script used for menu functionality & when searching to find games similar to the query - http://fusejs.io/ (Copyright © 2022 Kiro Risk)
 modal.js - A modal script
 q5.min.js - Minified version of https://q5js.org/
 script.js - mostly filter stuffs + other general things
