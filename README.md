@@ -9,25 +9,24 @@
 </h1>
 
 <p align="center">
-  An open-source unblocked games website built off of <a href="https://github.com/mathgames66/mathgames66.github.io">MathGames66</a> with freedom in mind.
+  An open-source unblocked games website based on <a href="https://github.com/mathgames66/mathgames66.github.io">MathGames66</a> with freedom in mind.
 </p>  
 
-### Installation
-
-**For Testing:**
+### Development
 ```bash
 git clone https://github.com/AnonymousElixir/SchoolLinks.git
 cd SchoolLinks
 python3 -m http.server
 ```
-**For Production:**
+
+### Production
 You should use a better static site server such as [NGINX](https://nginx.org/) or [Apache](https://httpd.apache.org/).
 
-### Where to get help
+### Where to get help?
 
-For questions and suggestions please join our [Discord server](https://discord.gg/zPEZTEKva8)
+For questions and suggestions please join our [Discord server](https://discord.gg/zPEZTEKva8).
 
-For any website/game issues please [create a new GitHub issue](https://github.com/AnonymousElixir/SchoolLinks/issues)
+For any website/game issues please [create a new GitHub issue](https://github.com/AnonymousElixir/SchoolLinks/issues).
 
-For submitting more games check out [the submit page for the site](https://cassidycamp.work/SchoolLinks/submit.html)
+For submitting more games check out [the submit page for the site](https://cassidycamp.work/SchoolLinks/submit.html).
 
