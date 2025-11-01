@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-  An open-source unblocked games website built off of [MathGames66](https://github.com/mathgames66/mathgames66.github.io) with freedom in mind.
+  An open-source unblocked games website built off of <a href="https://github.com/mathgames66/mathgames66.github.io">MathGames66</a> with freedom in mind.
 </p>  
 
 ### Installation
