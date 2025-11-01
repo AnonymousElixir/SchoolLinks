@@ -1,7 +1,7 @@
 //Hi there! - Diamond
 // Comments aren't completed (obviously) so some parts might be a little harder to understand (Good to know, Thanks Diamond)
 
-//Mobile check via user-agents
+// Mobile check via various things with user-agents as a fallback
 let hasTouchScreen = false;
 if ("maxTouchPoints" in navigator) {
 	hasTouchScreen = navigator.maxTouchPoints > 0;
