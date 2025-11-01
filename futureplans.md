@@ -24,6 +24,11 @@ This would speed up production as pages wouldn't be regenerated.
 - make it so all hyperlinks are highlighted by default and just use a diff class for no highlight.
 
 - Make Daily secret use an api instead of manual commits.
+
+- Move Games/Thumbnails to a seperate repository in order to speed up deploy times.
+
+- Add better changelog (maybe even add a popup for it)
+
 --------------------------------------------------------
 
 Want to suggest a change? [Join the discord](https://discord.gg/zPEZTEKva8)
