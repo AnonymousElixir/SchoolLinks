@@ -5,7 +5,8 @@
 </p>
 
 <h1 align="center">
-  SchoolLinks
+  SchoolLinks<br>
+  <img src="https://hackatime-badge.hackclub.com/U06L1LCP71U/SchoolLinks"></img>
 </h1>
 
 <p align="center">
