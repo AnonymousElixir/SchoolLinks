@@ -1,3 +1,5 @@
+// A modal script
+
 document.addEventListener("DOMContentLoaded", () => {
 	const dialog = document.querySelector("dialog");
 	const openButton = document.querySelector("#show-button");

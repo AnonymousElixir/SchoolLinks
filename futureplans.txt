@@ -1,8 +1,10 @@
+[ This file details future plans/ideas for the site. ]
+
 Remove Broken Games
 
 Add More Games
 
-Add A Chatroom
+Add A Dedicated Site Chatroom
 
 Make An Unblocker Section
 

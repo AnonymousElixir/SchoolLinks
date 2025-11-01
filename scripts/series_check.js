@@ -1,3 +1,5 @@
+// [ checks game series to find matching games from the series ]
+
 checkSelf = () => {
 	let check =  document.getElementById("series-games").childElementCount != 0
 	if (!check) {

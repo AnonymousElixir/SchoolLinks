@@ -1,3 +1,5 @@
+// [ mostly filter stuff & main script for general things. ]
+
 let tags = [];
 let defaultParams = {
 	searchQuery: "",

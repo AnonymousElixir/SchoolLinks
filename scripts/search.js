@@ -1,7 +1,7 @@
 //Hi there! - Diamond
-// Comments aren't completed (obviously) so some parts might be a little harder to understand
+// Comments aren't completed (obviously) so some parts might be a little harder to understand (Good to know, Thanks Diamond)
 
-//Mobile check via
+//Mobile check via user-agents
 let hasTouchScreen = false;
 if ("maxTouchPoints" in navigator) {
 	hasTouchScreen = navigator.maxTouchPoints > 0;
@@ -28,11 +28,12 @@ let fileDepth =
 		: ".";
 // Check if the false cards are removed (later)
 let cardsRemoved = false
-// Request the game json file
+// Request the gameData json file
 let gameDataRequest = new Request(fileDepth + "/gameData.json");
 // Declares gameDataObject (for later use)
 let gameDataObj;
 
+// Validate inputs for various areas.
 function validateInputs(form) {
 	let validValues = false;
 	for (let i = 0, l = form.length; i < l; i++) {
@@ -125,6 +126,7 @@ if (searchString.includes("="))
 if (Array.isArray(searchQueryObject.search))
 	searchQueryObject["search"] = searchQueryObject["search"].join("AND");
 
+// Fetches and checks gameData for any errors and then if it fails displays an error message detailing to report the issue.
 async function getGameData() {
 	await fetch(gameDataRequest, {
 		method: "GET",
@@ -139,7 +141,7 @@ async function getGameData() {
 		})
 		.catch(error => {
 			alert(
-				"Something went wrong trying to get game data. Please refresh and try again"
+				"Something went wrong trying to get game data. Please refresh and try again" 
 			);
 			document.getElementById("container").replaceChildren();
 			document.getElementById(

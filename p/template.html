@@ -20,7 +20,7 @@
             <img id="home-big" src="/images/vectors/logosl.svg"><img id="home-small"
                 src="/images/vectors/iconsl.svg">
         </a>
-        <form action="./search" autocomplete="off"
+        <form action="../search" autocomplete="off"
             onkeydown="document.getElementById('search-bar').classList.remove('failedSearch');">
             <input name="search" id="search-bar" class="search-text" type="text" required=""
                 oninvalid="document.getElementById('search-bar').classList.add('failedSearch');">
@@ -44,8 +44,8 @@
                 {dispName}
             </div>
             <div id="wgDev">
-                by <a href="./search/?create={quote_creator}">{creator}</a>, uploaded by <a
-                    href="./search/?uploader={quote_uploader}">{uploader}</a><br><br><br>
+                by <a href="../search/?create={quote_creator}">{creator}</a>, uploaded by <a
+                    href="../search/?uploader={quote_uploader}">{uploader}</a><br><br><br>
                 if you want to play this on an iPad (safari), tap on the "aA" button on the top left of your screen, on
                 the
                 left
@@ -67,7 +67,7 @@
                 {tagsCompiled}
             </div>
             <div id="series">
-                <h1><a href="./search/?series={series}">more from this series &rarr;</a></h1>
+                <h1><a href="../search/?series={series}">more from this series &rarr;</a></h1>
                 <div id="series-games" onload="checkSelf()">{seriesCards}</div>
             </div>
         </div>
